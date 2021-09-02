@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Services;
-use App\Models\Companie;
 use Illuminate\Http\Request;
-use App\Requests\StoreCompanieRequest;
 
 class ImageService {
 

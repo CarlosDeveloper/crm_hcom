@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CompanieController;
-use App\Services\CompanieService;
 
 /*
 |--------------------------------------------------------------------------

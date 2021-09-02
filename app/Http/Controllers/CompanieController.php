@@ -39,7 +39,6 @@ class CompanieController extends Controller
             ];
             return view('companies.index', $data);
         } catch (QueryException $exception) {
-            dd($exception);
             return redirect()->back()->with('error', 'Ocurrió algún error al guardar');
         }
         
@@ -63,7 +62,6 @@ class CompanieController extends Controller
      */
     public function store(StoreCompanyRequest $request)
     {   
-        
         try{ 
             $companie = $this->companieService->create( $request->validated() );
             if( $request->logo ){
