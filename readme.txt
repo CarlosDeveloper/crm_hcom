@@ -18,7 +18,7 @@ MAIL_ENCRYPTION=tls
 php artisan migrate
 php artisan db:seed --class=UserSeeder
 php artisan key:generate
-
+php artisan storage:link
 
 #Virtual Host para el caso de apache con xammp
 <VirtualHost *:85>
