@@ -1,0 +1,20 @@
+<?php
+return [
+    'title_table' => 'Employees',
+    'button_create_employee' => 'Create Employee',
+    'first_name_table' => 'First Name',
+    'last_name_table' => 'Last Name',
+    'company_table' => 'Company',
+    'email_table' => 'Email',
+    'phone_table' => 'Phone',
+    'actions' => 'Actions',
+    'create_employee' => 'Create Employee',
+    'update_employee' => 'Update Employee',
+    'save_button' => 'Save Changes',
+    'placeholder_first_name' => 'Enter First name',
+    'placeholder_last_name' => 'Enter Last Name',
+    'placeholder_company' => 'Choose Company',
+    'placeholder_email' => 'Enter Email',
+    'placeholder_phone' => 'Enter Phone',
+    'browse' => 'Browse',
+];

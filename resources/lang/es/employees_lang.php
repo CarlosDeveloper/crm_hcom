@@ -1,0 +1,20 @@
+<?php
+return [
+    'title_table' => 'Colaboradores',
+    'button_create_employee' => 'Crear Colaborador',
+    'first_name_table' => 'Nombres',
+    'last_name_table' => 'Apellidos',
+    'company_table' => 'Compañia',
+    'email_table' => 'Correo Electrónico',
+    'phone_table' => 'Teléfono',
+    'actions' => 'Acciones',
+    'create_employee' => 'Crear Colaborador',
+    'update_employee' => 'Actualizar Colaborador',
+    'save_button' => 'Guardar Cambios',
+    'placeholder_first_name' => 'Ingresa Nombres',
+    'placeholder_last_name' => 'Ingresa Apellidos',
+    'placeholder_company' => 'Selecciona Compañia',
+    'placeholder_email' => 'Ingresa Correo Electrónico',
+    'placeholder_phone' => 'Ingresa Teléfono',
+    'browse' => 'Buscar',
+];
